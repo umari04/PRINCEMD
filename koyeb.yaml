@@ -9,25 +9,6 @@ services:
     build:
       type: docker
       dockerfile: ./Dockerfile
-    env:
-      - OWNERS=923092668108;❣️DASTAGEER
-      - MODE=public
-      - PREFIX=""
-      - antidelete=false
-      - ANTI_LINK=false
-      - AUTOREAD=false
-      - VIEWONCE=false
-      - STATUS_REPLY=false
-      - STATUSLIKES=true
-      - STATUS_MSG="Your Status has been seen by Prince bot"
-      - BOT_NAME=PRINCE-MD
-      - PACK_NAME="Princebot🎗️❣️"
-      - DL_MSG="_📥-------- *DOWNLOADED SUCCESSFULLY* --------📥_"
-      - STATUSVIEW=false
-      - Status_Saver=false
-      - REJECTSCALLS=false
-      - AutoReaction=false
-      - SESSION_ID="" # Add your session ID here
     regions:
       - fra
       - sin
